@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "paid_api_calls": 0,
+  "manual_commands_succeeded": 23,
+  "independent_demo_verify_passed": true,
+  "stale_revision_rejected": true,
+  "restored_query_equal_except_versions": true,
+  "repeat_update_query_equal": true,
+  "initial_documents": 40,
+  "final_documents": 50,
+  "final_mentions": 2603,
+  "final_relations": 690,
+  "final_shared_entities": 84,
+  "local_document_links_valid": true,
+  "static_cli_lines_parsed": 34,
+  "api_wrapper_argv_parsed_without_calling_api": 3,
+  "scientific_review_complete": false,
+  "verification_document_count": 50,
+  "verification_relation_count": 690,
+  "verification_coverage_complete": true
+}

@@ -1,0 +1,310 @@
+{
+  "algorithm": "deterministic greedy shared gene/disease graph; exclude entities occurring in >45 of 600 documents; one in five selected documents held for incremental import",
+  "documents": [
+    {
+      "doc_id": "30836660",
+      "split": "initial",
+      "title": "Salidroside Ameliorates Renal Interstitial Fibrosis by Inhibiting the TLR4/NF-kappaB and MAPK Signaling Pathways."
+    },
+    {
+      "doc_id": "19811499",
+      "split": "initial",
+      "title": "Independent and cooperative roles of tumor necrosis factor-alpha, nuclear factor-kappaB, and bone morphogenetic protein-2 in regulation of metastasis and osteomimicry of prostate cancer cells and differentiation and mineralization of MC3T3-E1 osteoblast-like cells."
+    },
+    {
+      "doc_id": "27860244",
+      "split": "initial",
+      "title": "Role of protein arginine methyltransferase 5 in inflammation and migration of fibroblast-like synoviocytes in rheumatoid arthritis."
+    },
+    {
+      "doc_id": "28846666",
+      "split": "initial",
+      "title": "Interleukin 6 (IL-6) and Tumor Necrosis Factor alpha (TNF-alpha) Single Nucleotide Polymorphisms (SNPs), Inflammation and Metabolism in Gestational Diabetes Mellitus in Inner Mongolia."
+    },
+    {
+      "doc_id": "22859398",
+      "split": "incremental",
+      "title": "Variation in IL10 and other genes involved in the immune response and in oxidation and prostate cancer recurrence."
+    },
+    {
+      "doc_id": "28512644",
+      "split": "initial",
+      "title": "Analysis of Serum Cytokines and Single-Nucleotide Polymorphisms of SOD1, SOD2, and CAT in Erysipelas Patients."
+    },
+    {
+      "doc_id": "26270232",
+      "split": "initial",
+      "title": "Serum levels of chemokines CCL4 and CCL5 in cirrhotic patients indicate the presence of hepatocellular carcinoma."
+    },
+    {
+      "doc_id": "26937641",
+      "split": "initial",
+      "title": "Serum Amyloid A Induces Inflammation, Proliferation and Cell Death in Activated Hepatic Stellate Cells."
+    },
+    {
+      "doc_id": "28472177",
+      "split": "initial",
+      "title": "Ubiquitin carboxyl-terminal esterase L1 (UCHL1) is associated with stem-like cancer cell functions in pediatric high-grade glioma."
+    },
+    {
+      "doc_id": "20105310",
+      "split": "incremental",
+      "title": "Association of adipocyte genes with ASP expression: a microarray analysis of subcutaneous and omental adipose tissue in morbidly obese subjects."
+    },
+    {
+      "doc_id": "23651211",
+      "split": "initial",
+      "title": "Upregulation of T-cell factor-4 isoform-responsive target genes in hepatocellular carcinoma."
+    },
+    {
+      "doc_id": "19463742",
+      "split": "initial",
+      "title": "Melanocortin-4 receptor activation inhibits c-Jun N-terminal kinase activity and promotes insulin signaling."
+    },
+    {
+      "doc_id": "19306381",
+      "split": "initial",
+      "title": "Neuregulin-1 beta and neuregulin-1 alpha differentially affect the migration and invasion of malignant peripheral nerve sheath tumor cells."
+    },
+    {
+      "doc_id": "27014915",
+      "split": "initial",
+      "title": "NF-kB functions as a molecular link between tumor cells and Th1/Tc1 T cells in the tumor microenvironment to exert radiation-mediated tumor suppression."
+    },
+    {
+      "doc_id": "22369755",
+      "split": "incremental",
+      "title": "Reciprocal effects of NNK and SLURP-1 on oncogene expression in target epithelial cells."
+    },
+    {
+      "doc_id": "25946186",
+      "split": "initial",
+      "title": "TIPE2 Inhibits Lung Cancer Growth Attributing to Promotion of Apoptosis by Regulating Some Apoptotic Molecules Expression."
+    },
+    {
+      "doc_id": "19789368",
+      "split": "initial",
+      "title": "Vitamin D receptor expression is associated with PIK3CA and KRAS mutations in colorectal cancer."
+    },
+    {
+      "doc_id": "28259923",
+      "split": "initial",
+      "title": "Pleomorphic adenoma gene like-2 induces epithelial-mesenchymal transition via Wnt/b-catenin signaling pathway in human colorectal adenocarcinoma."
+    },
+    {
+      "doc_id": "25589620",
+      "split": "initial",
+      "title": "Pharmacogenetic Analysis of INT 0144 Trial: Association of Polymorphisms with Survival and Toxicity in Rectal Cancer Patients Treated with 5-FU and Radiation."
+    },
+    {
+      "doc_id": "25874935",
+      "split": "incremental",
+      "title": "Neuroprotective effect of neuroserpin in oxygen-glucose deprivation- and reoxygenation-treated rat astrocytes in vitro."
+    },
+    {
+      "doc_id": "28260110",
+      "split": "initial",
+      "title": "Inhibitory effect of emodin on fatty acid synthase, colon cancer proliferation and apoptosis."
+    },
+    {
+      "doc_id": "28747658",
+      "split": "initial",
+      "title": "A single amino acid substitution confers B-cell clonogenic activity to the HIV-1 matrix protein p17."
+    },
+    {
+      "doc_id": "27491646",
+      "split": "initial",
+      "title": "Gartanin induces cell cycle arrest and autophagy and suppresses migration involving PI3K/Akt/mTOR and MAPK signalling pathway in human glioma cells."
+    },
+    {
+      "doc_id": "19672862",
+      "split": "initial",
+      "title": "Protein kinase C alpha-dependent signaling mediates endometrial cancer cell growth and tumorigenesis."
+    },
+    {
+      "doc_id": "26684240",
+      "split": "incremental",
+      "title": "Identification of the BRAF V600E mutation in gastroenteropancreatic neuroendocrine tumors."
+    },
+    {
+      "doc_id": "19825989",
+      "split": "initial",
+      "title": "H3 histamine receptor-mediated activation of protein kinase Calpha inhibits the growth of cholangiocarcinoma in vitro and in vivo."
+    },
+    {
+      "doc_id": "18507837",
+      "split": "initial",
+      "title": "Effects of common germline genetic variation in cell cycle control genes on breast cancer survival: results from a population-based cohort."
+    },
+    {
+      "doc_id": "17634480",
+      "split": "initial",
+      "title": "Common germline genetic variation in antioxidant defense genes and survival after diagnosis of breast cancer."
+    },
+    {
+      "doc_id": "27084744",
+      "split": "initial",
+      "title": "NOTCH1 and SOX10 are Essential for Proliferation and Radiation Resistance of Cancer Stem-Like Cells in Adenoid Cystic Carcinoma."
+    },
+    {
+      "doc_id": "18593936",
+      "split": "incremental",
+      "title": "Curcumin decreases specificity protein expression in bladder cancer cells."
+    },
+    {
+      "doc_id": "28260077",
+      "split": "initial",
+      "title": "Atorvastatin protects against contrast-induced nephropathy via anti-apoptosis by the upregulation of Hsp27 in vivo and in vitro."
+    },
+    {
+      "doc_id": "27248656",
+      "split": "initial",
+      "title": "Hsp90beta is involved in the development of high salt-diet-induced nephropathy via interaction with various signalling proteins."
+    },
+    {
+      "doc_id": "19048115",
+      "split": "initial",
+      "title": "Neurofibromin 1 (NF1) defects are common in human ovarian serous carcinomas and co-occur with TP53 mutations."
+    },
+    {
+      "doc_id": "27974047",
+      "split": "initial",
+      "title": "FGFR1 and NTRK3 actionable alterations in \"Wild-Type\" gastrointestinal stromal tumors."
+    },
+    {
+      "doc_id": "16410744",
+      "split": "incremental",
+      "title": "Genetic alterations in primary glioblastomas in Japan."
+    },
+    {
+      "doc_id": "28148288",
+      "split": "initial",
+      "title": "Metalloprotease-disintegrin ADAM12 actively promotes the stem cell-like phenotype in claudin-low breast cancer."
+    },
+    {
+      "doc_id": "26102294",
+      "split": "initial",
+      "title": "Role of stress-activated OCT4A in the cell fate decisions of embryonal carcinoma cells treated with etoposide."
+    },
+    {
+      "doc_id": "27640183",
+      "split": "initial",
+      "title": "Erythropoietin does not activate erythropoietin receptor signaling or lipolytic pathways in human subcutaneous white adipose tissue in vivo."
+    },
+    {
+      "doc_id": "27941998",
+      "split": "initial",
+      "title": "Voltage-Dependent Anion Channel 1(VDAC1) Participates the Apoptosis of the Mitochondrial Dysfunction in Desminopathy."
+    },
+    {
+      "doc_id": "24288432",
+      "split": "incremental",
+      "title": "Association of a FGFR-4 gene polymorphism with bronchopulmonary dysplasia and neonatal respiratory distress."
+    },
+    {
+      "doc_id": "21750150",
+      "split": "initial",
+      "title": "Homozygously deleted gene DACH1 regulates tumor-initiating activity of glioma cells."
+    },
+    {
+      "doc_id": "28393239",
+      "split": "initial",
+      "title": "Psoriasin promotes invasion, aggregation and survival of pancreatic cancer cells; association with disease progression."
+    },
+    {
+      "doc_id": "27090298",
+      "split": "initial",
+      "title": "Circulating Fatty Acid Synthase in pregnant women: Relationship to blood pressure, maternal metabolism and newborn parameters."
+    },
+    {
+      "doc_id": "28481876",
+      "split": "initial",
+      "title": "Oncogenic activity of amplified miniature chromosome maintenance 8 in human malignancies."
+    },
+    {
+      "doc_id": "28098423",
+      "split": "incremental",
+      "title": "Brain-derived neurotrophic factor attenuates doxorubicin-induced cardiac dysfunction through activating Akt signalling in rats."
+    },
+    {
+      "doc_id": "24840785",
+      "split": "initial",
+      "title": "Aconitine-induced Ca2+ overload causes arrhythmia and triggers apoptosis through p38 MAPK signaling pathway in rats."
+    },
+    {
+      "doc_id": "28075473",
+      "split": "initial",
+      "title": "Spirulina lipopolysaccharides inhibit tumor growth in a Toll-like receptor 4-dependent manner by altering the cytokine milieu from interleukin-17/interleukin-23 to interferon-g."
+    },
+    {
+      "doc_id": "25263533",
+      "split": "initial",
+      "title": "CD25(+) Bcl6(low) T follicular helper cells provide help to maturing B cells in germinal centers of human tonsil."
+    },
+    {
+      "doc_id": "25277705",
+      "split": "initial",
+      "title": "Leukemia inhibitory factor protects the lung during respiratory syncytial viral infection."
+    },
+    {
+      "doc_id": "25305591",
+      "split": "incremental",
+      "title": "VPAC2 (vasoactive intestinal peptide receptor type 2) receptor deficient mice develop exacerbated experimental autoimmune encephalomyelitis with increased Th1/Th17 and reduced Th2/Treg responses."
+    }
+  ],
+  "entity_types": {
+    "CellLine": 95,
+    "ChemicalEntity": 235,
+    "DiseaseOrPhenotypicFeature": 524,
+    "GeneOrGeneProduct": 1451,
+    "OrganismTaxon": 174,
+    "SequenceVariant": 46
+  },
+  "gold_entity_mentions": 2525,
+  "gold_relations": 1197,
+  "incremental": 10,
+  "initial": 40,
+  "kb": {
+    "background_candidates_by_type": {
+      "ChemicalEntity": 2037,
+      "DiseaseOrPhenotypicFeature": 96,
+      "GeneOrGeneProduct": 2850
+    },
+    "candidate_count": 7347,
+    "gene_species": [
+      "9606",
+      "10090",
+      "10116"
+    ],
+    "note": "Unsupported IDs remain unresolved; all six entity types remain in the extraction corpus. OMIM-only disease IDs are not remapped to MESH.",
+    "raw_text_candidates_by_type": {
+      "ChemicalEntity": 332,
+      "DiseaseOrPhenotypicFeature": 86,
+      "GeneOrGeneProduct": 1943,
+      "OrganismTaxon": 3
+    },
+    "selection_uses_gold_ids_or_gold_spans": false,
+    "source_entries_by_type": {
+      "ChemicalEntity": 261530,
+      "DiseaseOrPhenotypicFeature": 11741,
+      "GeneOrGeneProduct": 368568,
+      "OrganismTaxon": 3
+    },
+    "unsupported_types": [
+      "SequenceVariant",
+      "CellLine"
+    ]
+  },
+  "limitation": "Purposive connected teaching subset, not an unbiased benchmark sample. Original Train/Dev/Test are retained as provenance; do not report scores as official BioRED test results.",
+  "prediction_uses_gold": false,
+  "relation_types": {
+    "Association": 757,
+    "Bind": 29,
+    "Cotreatment": 1,
+    "Negative_Correlation": 167,
+    "Positive_Correlation": 243
+  },
+  "sampling_uses_gold": true,
+  "shared_gene_disease_ids": 139,
+  "total_documents": 50
+}

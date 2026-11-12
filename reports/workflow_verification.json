@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_artifact_hashes": true,
+    "initial_document_count": true,
+    "incremental_document_count": true,
+    "all_sources_present": true,
+    "source_text_unchanged": true,
+    "cross_document_links_exist": true,
+    "structural_checks": true,
+    "evidence_review_coverage": true,
+    "evidence_review_replay_match": true,
+    "injection_query_changed": true,
+    "correction_query_restored": true,
+    "revision_history_preserved": true,
+    "history_versions": true,
+    "history_hashes": true,
+    "history_relation_transition": true,
+    "repeat_import_idempotent": true,
+    "same_paper_relations_retained": true,
+    "new_paper_relations_added": true
+  },
+  "documents": 50,
+  "entity_mentions": 2603,
+  "relations": 690,
+  "cross_document_entities": 84,
+  "link_status_counts": {
+    "resolved": 1513,
+    "unresolved": 807,
+    "ambiguous": 283
+  },
+  "api_calls_in_replay": 0,
+  "scientific_review_complete": false,
+  "pending_review_items": 2726,
+  "note": "通过表示流程和已声明验收成立；不表示所有模型关系或上下文已获专家确认。"
+}

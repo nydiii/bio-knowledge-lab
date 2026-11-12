@@ -1,0 +1,129 @@
+{
+  "artifacts": [
+    {
+      "bytes": 192380,
+      "path": "data/corpus/documents.jsonl",
+      "sha256": "2ffa44eee24b29e7d525b740c4499cd2b8bd89161b18dff8c8c6e354ff1b26e1"
+    },
+    {
+      "bytes": 628690,
+      "path": "data/reference/gold.jsonl",
+      "sha256": "0dcf456be0bd4ce720f1ff05d0be7d4898a14ea0fb57802abf6d666ab68ea1ff"
+    },
+    {
+      "bytes": 3325739,
+      "path": "data/kb/entities.jsonl",
+      "sha256": "e6c9600d54d3a35a811d87a96cec5bff305a5614f5cfed626a71bac42df2d608"
+    },
+    {
+      "bytes": 10681,
+      "path": "data/reference/cross_document_gold.json",
+      "sha256": "6cc6db1135f01af18ed38e0351b124c020850aa18d22acb13ed0718aa9bb64b6"
+    },
+    {
+      "bytes": 12208,
+      "path": "data/reference/selection_report.json",
+      "sha256": "889435bf3eb0f86ce57c452d572354c3fe2c3545db02b7d31694357ed8bc5290"
+    }
+  ],
+  "dataset": "BioRED original 600, 2022 release",
+  "gold_scope": [
+    "entity span",
+    "entity type",
+    "standard entity identifiers",
+    "document-level relation",
+    "novelty"
+  ],
+  "kb": {
+    "background_candidates_by_type": {
+      "ChemicalEntity": 2037,
+      "DiseaseOrPhenotypicFeature": 96,
+      "GeneOrGeneProduct": 2850
+    },
+    "candidate_count": 7347,
+    "gene_species": [
+      "9606",
+      "10090",
+      "10116"
+    ],
+    "note": "Unsupported IDs remain unresolved; all six entity types remain in the extraction corpus. OMIM-only disease IDs are not remapped to MESH.",
+    "raw_text_candidates_by_type": {
+      "ChemicalEntity": 332,
+      "DiseaseOrPhenotypicFeature": 86,
+      "GeneOrGeneProduct": 1943,
+      "OrganismTaxon": 3
+    },
+    "selection_uses_gold_ids_or_gold_spans": false,
+    "source_entries_by_type": {
+      "ChemicalEntity": 261530,
+      "DiseaseOrPhenotypicFeature": 11741,
+      "GeneOrGeneProduct": 368568,
+      "OrganismTaxon": 3
+    },
+    "unsupported_types": [
+      "SequenceVariant",
+      "CellLine"
+    ]
+  },
+  "not_gold": [
+    "sentence rationale",
+    "complete experiment context",
+    "causal direction",
+    "model confidence",
+    "course revision history"
+  ],
+  "schema_version": "1.1",
+  "serialization": "UTF-8 JSON sorted keys, fixed array order, newline terminated",
+  "snapshot_date": "2026-11-12",
+  "sources": [
+    {
+      "bytes": 2191684,
+      "file": "BIORED.zip",
+      "sha256": "c3032230bd89d22a0923d0df6ae943bc8ea37fba7e42dafa7a8dec21bac02d47",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pub/lu/BioRED/BIORED.zip"
+    },
+    {
+      "bytes": 305545,
+      "file": "BioRED_Annotation_Guideline.pdf",
+      "sha256": "e2cf33a9fab76124351c609d3b5fd704e3a8a64fcad2fb8b48227c2aa92feb22",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pub/lu/BioRED/BioRED_Annotation_Guideline.pdf"
+    },
+    {
+      "bytes": 5203017,
+      "file": "Homo_sapiens.gene_info.gz",
+      "sha256": "82994f417d42f827203cfa7b96f9f96266374f8b412f1dc0a4899cf98fc7fc16",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz"
+    },
+    {
+      "bytes": 3935016,
+      "file": "Mus_musculus.gene_info.gz",
+      "sha256": "2b42fd97a993c237b688be820490e3589f468e68b645b32e2be8fa5c620b4560",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Mus_musculus.gene_info.gz"
+    },
+    {
+      "bytes": 2606251,
+      "file": "Rattus_norvegicus.gene_info.gz",
+      "sha256": "bf19239fa88df6570b288ca6977cd00a0213f0d30fee04ac2f5708713f2d5702",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Rattus_norvegicus.gene_info.gz"
+    },
+    {
+      "bytes": 16812612,
+      "file": "desc2026.gz",
+      "sha256": "ccd4d0d33bebfd4c836a59e7dd0c635b1d4e20c4f5a6abc55e2eb0ba4c8716dd",
+      "url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz"
+    },
+    {
+      "bytes": 47287269,
+      "file": "supp2026.gz",
+      "sha256": "5d487dbb55807724465065f5c0945c630290a0a6decee14618f5380c574d87ab",
+      "url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/supp2026.gz"
+    },
+    {
+      "bytes": 21056,
+      "file": "taxonomy_9606_10090_10116.xml",
+      "sha256": "f35f4f9fb622914d159c86a9757de46efa29f8b628ef0ad98f15c1fe9d6fb9e8",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id=9606,10090,10116&retmode=xml"
+    }
+  ],
+  "text_coordinates": "Python Unicode character offsets; title + newline + abstract; start inclusive, end exclusive; all original spans verified against raw text"
+}

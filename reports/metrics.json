@@ -1,0 +1,143 @@
+{
+  "lexical": {
+    "evaluated_documents": 50,
+    "submitted_documents": 50,
+    "documents_without_gold": [],
+    "reference_documents_not_submitted": 0,
+    "ner_strict": {
+      "true_positive": 1943,
+      "predicted": 2603,
+      "gold": 2525,
+      "precision": 0.7464464079907799,
+      "recall": 0.7695049504950495,
+      "f1": 0.7578003120124805
+    },
+    "linking_strict": {
+      "true_positive": 438,
+      "predicted": 567,
+      "gold": 2521,
+      "precision": 0.7724867724867724,
+      "recall": 0.17374057913526378,
+      "f1": 0.28367875647668395
+    },
+    "relation_end_to_end": {
+      "true_positive": 10,
+      "predicted": 685,
+      "gold": 1197,
+      "precision": 0.014598540145985401,
+      "recall": 0.00835421888053467,
+      "f1": 0.010626992561105206
+    },
+    "relation_with_novelty": {
+      "true_positive": 9,
+      "predicted": 685,
+      "gold": 1197,
+      "precision": 0.013138686131386862,
+      "recall": 0.007518796992481203,
+      "f1": 0.009564293304994686
+    },
+    "evidence_sentence_score": null,
+    "context_score": null,
+    "evaluation_notes": [
+      "实体严格比较原文跨度和类型；链接还需标准标识集合一致。",
+      "原BioRED无方向关系按无序标准实体对、标签和文档评价。",
+      "未解决端点的预测关系计入预测分母。",
+      "没有逐句证据/上下文金标，不给出伪造分数。",
+      "金标未进入实体对齐或模型输入。"
+    ]
+  },
+  "sapbert": {
+    "evaluated_documents": 50,
+    "submitted_documents": 50,
+    "documents_without_gold": [],
+    "reference_documents_not_submitted": 0,
+    "ner_strict": {
+      "true_positive": 1943,
+      "predicted": 2603,
+      "gold": 2525,
+      "precision": 0.7464464079907799,
+      "recall": 0.7695049504950495,
+      "f1": 0.7578003120124805
+    },
+    "linking_strict": {
+      "true_positive": 442,
+      "predicted": 577,
+      "gold": 2521,
+      "precision": 0.7660311958405546,
+      "recall": 0.17532725109083697,
+      "f1": 0.2853453841187863
+    },
+    "relation_end_to_end": {
+      "true_positive": 10,
+      "predicted": 685,
+      "gold": 1197,
+      "precision": 0.014598540145985401,
+      "recall": 0.00835421888053467,
+      "f1": 0.010626992561105206
+    },
+    "relation_with_novelty": {
+      "true_positive": 9,
+      "predicted": 685,
+      "gold": 1197,
+      "precision": 0.013138686131386862,
+      "recall": 0.007518796992481203,
+      "f1": 0.009564293304994686
+    },
+    "evidence_sentence_score": null,
+    "context_score": null,
+    "evaluation_notes": [
+      "实体严格比较原文跨度和类型；链接还需标准标识集合一致。",
+      "原BioRED无方向关系按无序标准实体对、标签和文档评价。",
+      "未解决端点的预测关系计入预测分母。",
+      "没有逐句证据/上下文金标，不给出伪造分数。",
+      "金标未进入实体对齐或模型输入。"
+    ]
+  },
+  "contextual": {
+    "evaluated_documents": 50,
+    "submitted_documents": 50,
+    "documents_without_gold": [],
+    "reference_documents_not_submitted": 0,
+    "ner_strict": {
+      "true_positive": 1943,
+      "predicted": 2603,
+      "gold": 2525,
+      "precision": 0.7464464079907799,
+      "recall": 0.7695049504950495,
+      "f1": 0.7578003120124805
+    },
+    "linking_strict": {
+      "true_positive": 1249,
+      "predicted": 1513,
+      "gold": 2521,
+      "precision": 0.8255122273628552,
+      "recall": 0.4954383181277271,
+      "f1": 0.6192364898363907
+    },
+    "relation_end_to_end": {
+      "true_positive": 160,
+      "predicted": 655,
+      "gold": 1197,
+      "precision": 0.24427480916030533,
+      "recall": 0.1336675020885547,
+      "f1": 0.17278617710583155
+    },
+    "relation_with_novelty": {
+      "true_positive": 156,
+      "predicted": 658,
+      "gold": 1197,
+      "precision": 0.23708206686930092,
+      "recall": 0.13032581453634084,
+      "f1": 0.16819407008086254
+    },
+    "evidence_sentence_score": null,
+    "context_score": null,
+    "evaluation_notes": [
+      "实体严格比较原文跨度和类型；链接还需标准标识集合一致。",
+      "原BioRED无方向关系按无序标准实体对、标签和文档评价。",
+      "未解决端点的预测关系计入预测分母。",
+      "没有逐句证据/上下文金标，不给出伪造分数。",
+      "金标未进入实体对齐或模型输入。"
+    ]
+  }
+}

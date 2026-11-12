@@ -1,0 +1,26 @@
+name: CPU teaching workflow
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+env:
+  PYTHONUTF8: '1'
+jobs:
+  replay:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e . -r requirements-test.lock.txt
+      - run: python -m pytest -q
+      - run: python -m bio_knowledge_lab fetch --verify-only
+      - run: python -m bio_knowledge_lab demo --workdir runs/ci
+      - run: python -m bio_knowledge_lab verify --workdir runs/ci
+      - run: python scripts/verify_student_setup.py --output runs/student-check

@@ -1,0 +1,3 @@
+# Optional CPU experiment; the free main path uses Python's standard library.
+torch==2.8.0
+transformers==4.57.1

@@ -1,0 +1,17 @@
+{
+  "documents": 50,
+  "entity_mentions": 2603,
+  "candidate_relations": 690,
+  "verification_labels": {
+    "supported_text": 636,
+    "insufficient_text": 42,
+    "invalid_judgment": 5,
+    "contradicted_text": 7
+  },
+  "review_queue_rows": 157,
+  "priority_review_rows": 24,
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "python": "3.12.15",
+  "scientific_review_complete": false,
+  "model_evidence_labels_are_not_accuracy": true
+}
