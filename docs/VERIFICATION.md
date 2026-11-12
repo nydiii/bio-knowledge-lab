@@ -1,6 +1,8 @@
 # 实际验证记录
 
-记录日期：2026-11-12。平台：macOS 26.6 / Apple Silicon，Python 3.12.15。所有神经模型实验指定 CPU，未用独立显卡。跨系统 CI 的最终状态见 GitHub Actions；未实际取得的结果不在此宣称通过。
+记录日期：2026-11-12 至 2026-11-13。平台：macOS 26.6 / Apple Silicon，Python 3.12.15。所有神经模型实验指定 CPU，未用独立显卡。
+
+代码版本 `f640149a2646be6a4228d792f12bfc772ac8dc56` 的 **Windows 与 Ubuntu 云端验收全部通过**，覆盖38项测试、数据哈希、完整回放、验收和回传包生成。本地 macOS 干净环境也已通过。交付时 macOS 云端任务尚未获得运行器，处于排队状态，不计作已通过；实时结果见 [GitHub Actions](https://github.com/nydiii/bio-knowledge-lab/actions/runs/43253585373)，交付快照见 [ci_verification.json](../reports/ci_verification.json)。后续仅补充交付文档及报告，不改变上述已验证代码。
 
 ## 已运行的真实流程
 
