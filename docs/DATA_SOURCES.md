@@ -79,7 +79,7 @@ python scripts/prepare_data.py --fetch
 
 ## 使用条款与署名
 
-- BioRED 数据与指南由官方公开提供，引用其数据论文及官方仓库。本文献摘要仍可能涉及原出版方版权，不能因存放在 NCBI 上就把摘要声明为 MIT。仓库保持私有供审阅；转为公开前需确认资料分发范围。教师可采用官方数据下载器而不是再分发全部源资料。
+- BioRED 数据与指南由官方公开提供，引用其数据论文及官方仓库。本文献摘要仍可能涉及原出版方版权，不能因存放在 NCBI 上就把摘要声明为 MIT。仓库已公开；第三方材料的原有权利与使用条件继续适用。原始资料来源与下载器均保留供核对。
 - NLM MeSH 无下载费或使用费，要求清楚署名 NLM、不得暗示背书，并标明所用版本或不是最新数据。本项目在此明确标注 MeSH 2026 和下载日期。[MeSH 官方使用条款](https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html)
 - [MeSH 官方下载说明](https://www.nlm.nih.gov/databases/download/mesh.html)指出描述词按年更新、补充概念持续更新。冻结哈希用于教学复现，不表示它是最新知识。
 - NCBI Gene 和 Taxonomy 的 source URL、原始文件哈希均写入 manifest，候选条目保留对应官方记录链接。第三方数据不归入课程代码的 MIT 授权。

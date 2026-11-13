@@ -6,7 +6,7 @@
 
 ## 1. 准备与安装
 
-准备普通电脑，推荐 Python 3.12。无需独立显卡。先获得课程仓库访问权限，再下载 ZIP 解压，或使用 Git：
+准备普通电脑，推荐 Python 3.12。无需独立显卡。仓库已公开，可直接下载 ZIP 解压，或使用 Git：
 
 ```bash
 git clone https://github.com/nydiii/bio-knowledge-lab.git
@@ -255,7 +255,7 @@ python -m bio_knowledge_lab align --method contextual --mode replay --input runs
 | 现象 | 处理 |
 |---|---|
 | 找不到模块 | 确认在仓库根目录、已激活正确虚拟环境，并执行了 `pip install -e .` |
-| 私有仓库克隆失败 | 确认教师已授予账号访问权限，或使用教师提供的 ZIP；不用提供密码给项目维护者 |
+| 仓库克隆失败 | 核对仓库地址、网络连接和 Git 安装，或使用仓库页面的 Code → Download ZIP；公开查看和下载无需写入权限 |
 | 回放文件缺失或提示哈希不一致 | 检查代码和数据是否同一发布版本；不要复制金标伪装回放 |
 | 输出文件已存在 | 保留原输出，换新实验目录；避免混淆不同运行 |
 | `unresolved` 或 `ambiguous` 较多 | 先看候选库覆盖、原文物种和名称歧义；这不是程序必然崩溃，也不能全部强行配一个 ID |

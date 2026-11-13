@@ -75,4 +75,4 @@ python scripts/verify_student_setup.py --output runs/student-check
 
 原始 BioRED 600 摘要中选出本课程 50 篇，保留 2525 个人工实体标注、1197 条文档级关系作为参考。独立候选库来自 NCBI Gene、NCBI Taxonomy 与 NLM MeSH 2026，不从测试 gold 构造名称到 ID 的答案表。
 
-课程原始代码采用 [MIT](LICENSE)。论文摘要、数据、模型和第三方代码保留原有条款，详见 [THIRD_PARTY](THIRD_PARTY.md)。仓库先以私有方式交付；公开课程材料前按人工核查表确认资料分发范围。
+课程原始代码采用 [MIT](LICENSE)。论文摘要、数据、模型和第三方代码保留原有条款，详见 [THIRD_PARTY](THIRD_PARTY.md)。仓库已公开，任何人均可查看、下载和 Fork；访客不能直接修改原仓库。当前仅所有者 `nydiii` 具有写入权限。
