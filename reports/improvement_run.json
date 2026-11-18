@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-18",
+  "baseline_run": {
+    "mode": "authentic_replay_then_local_rules",
+    "new_api_calls": 0,
+    "baseline_hashes": {
+      "baseline.jsonl": "a9903fc5fdf9b6f8eb6a10642df4314e25b7719ea591ed30cba5be76b4cb277c",
+      "baseline_evaluation.json": "9360bfe4d026b8c6af7dca614d29ac4451d7354e1f666a6fb39e6ca46bc1e3cf"
+    },
+    "resource_hashes": {
+      "data/reference/gold.jsonl": "0dcf456be0bd4ce720f1ff05d0be7d4898a14ea0fb57802abf6d666ab68ea1ff",
+      "data/improvement/entities.jsonl": "12e22d5273b5e08522c063c44c344c10a567ffbf71baafe81bb27bd422788d9f",
+      "data/improvement/cell_context.json": "afc35f8da3a1f305836e67e12d43a94a387a230abc4945e226e1103086d71d38",
+      "data/improvement/review_cases.json": "8e4f8a736fc209ee5eb800feb008ee8a1aa1133a8482d77d145e8807edc5814f"
+    },
+    "development_doc_ids": [
+      "18507837",
+      "18593936",
+      "19306381",
+      "19463742",
+      "19672862",
+      "21750150",
+      "25305591",
+      "27014915",
+      "27084744",
+      "27248656"
+    ],
+    "validation_scope": "未参与本轮规则修改的其余文献；历史开发已可见，不是独立测试集。"
+  },
+  "improved_run": {
+    "output_sha256": "39011dc7c405adb8e5062570594a398f2682fa2666104ef11c8f07be200e5f1c",
+    "api_calls": 0,
+    "method": "local_rules_on_fixed_authentic_predictions",
+    "human_confirmed": false,
+    "code_hashes": {
+      "improvement.py": "e7ed5cb96fe303c7fffc31ecff8521376c00b08767a878f832baac6f766361db",
+      "relation_rules.py": "6427294c3902522e1928a9793350fcfa3c77723ba4c7266db66f684bb6c047fc"
+    }
+  },
+  "validation": {
+    "pytest_passed": 113,
+    "free_steps_completed": [
+      "baseline",
+      "inspect",
+      "optimize",
+      "compare"
+    ],
+    "bundled_artifacts_verified": 5
+  },
+  "report_sha256": "4b222e6cfee531f1ad690587518c3c4bc32e6c7385305bfd3e500b0981d6d062"
+}

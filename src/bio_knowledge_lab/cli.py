@@ -39,6 +39,9 @@ def parser():
     s=sub.add_parser("prepare-revision");s.add_argument("--db",type=Path,required=True);s.add_argument("--output-dir",type=Path,required=True)
     for command in ("demo","verify"):
         s=sub.add_parser(command);s.add_argument("--workdir",type=Path,default=ROOT/"runs/demo")
+    s=sub.add_parser("feedback-lab",help="免费体验：旧版运行、发现问题、本地规则改进、比较效果；无需交表")
+    s.add_argument("--step",choices=["baseline","inspect","optimize","compare"],required=True)
+    s.add_argument("--workdir",type=Path,default=ROOT/"runs/feedback")
     return p
 
 def _client(args):
@@ -59,6 +62,9 @@ def main(argv=None):
 def execute(args):
     from . import pipeline
     command=args.command
+    if command=="feedback-lab":
+        from .feedback_lab import run_feedback_lab
+        return run_feedback_lab(args.step,args.workdir)
     if command=="fetch":
         import subprocess
         cmd=[sys.executable,str(ROOT/"scripts/prepare_data.py")]

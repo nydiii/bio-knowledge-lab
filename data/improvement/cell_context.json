@@ -1,0 +1,11 @@
+{
+  "retrieved_date": "2026-11-18",
+  "purpose": "局部细胞来源提示，不作为外加蛋白或试剂物种的依据，也不决定全文基因物种。",
+  "cells": [
+    {"name": "Ishikawa", "aliases": ["ISHIKAWA", "ISHI"], "tax_id": "9606", "accession": "CVCL_2529", "source_url": "https://www.cellosaurus.org/CVCL_2529"},
+    {"name": "253J-BV", "aliases": ["253JB-V", "253J B-V", "253JBV", "253J-Bladder-V"], "tax_id": "9606", "accession": "CVCL_7937", "source_url": "https://www.cellosaurus.org/CVCL_7937"},
+    {"name": "KU-7", "aliases": ["KU7", "Keio University-7"], "tax_id": "9606", "accession": "CVCL_4714", "source_url": "https://www.cellosaurus.org/CVCL_4714", "note": "Cellosaurus 记载 HeLa 污染/衍生问题；这里只使用人源信息，不据此确认膀胱组织来源。"},
+    {"name": "GT1-1", "aliases": [], "tax_id": "10090", "accession": "CVCL_6236", "source_url": "https://www.cellosaurus.org/CVCL_6236"},
+    {"name": "HEK293", "aliases": ["Hek293", "HEK-293", "HEK/293", "(HEK)293", "HEK 293", "Human Embryonic Kidney 293"], "tax_id": "9606", "accession": "CVCL_0045", "source_url": "https://www.cellosaurus.org/CVCL_0045"}
+  ]
+}

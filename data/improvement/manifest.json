@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "gene_snapshot_date": "2026-11-12",
+  "built_date": "2026-11-18",
+  "selection_uses_gold": false,
+  "selection": "All predicted Gene names from the frozen 50-document replay; all matching species retained.",
+  "suffix_matches_are_candidates_not_confirmed_synonyms": true,
+  "base_candidate_count": 7347,
+  "candidate_count": 7535,
+  "additional_entries": 188,
+  "sources": [
+    {
+      "bytes": 5203017,
+      "file": "Homo_sapiens.gene_info.gz",
+      "sha256": "82994f417d42f827203cfa7b96f9f96266374f8b412f1dc0a4899cf98fc7fc16",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz"
+    },
+    {
+      "bytes": 3935016,
+      "file": "Mus_musculus.gene_info.gz",
+      "sha256": "2b42fd97a993c237b688be820490e3589f468e68b645b32e2be8fa5c620b4560",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Mus_musculus.gene_info.gz"
+    },
+    {
+      "bytes": 2606251,
+      "file": "Rattus_norvegicus.gene_info.gz",
+      "sha256": "bf19239fa88df6570b288ca6977cd00a0213f0d30fee04ac2f5708713f2d5702",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Rattus_norvegicus.gene_info.gz"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/improvement/entities.jsonl",
+      "sha256": "12e22d5273b5e08522c063c44c344c10a567ffbf71baafe81bb27bd422788d9f"
+    },
+    {
+      "path": "data/improvement/cell_context.json",
+      "sha256": "afc35f8da3a1f305836e67e12d43a94a387a230abc4945e226e1103086d71d38"
+    }
+  ]
+}

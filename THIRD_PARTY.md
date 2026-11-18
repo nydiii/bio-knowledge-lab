@@ -15,6 +15,7 @@
 
 - **BioRED**：[官方仓库](https://github.com/ncbi/BioRED)、[官方发布目录](https://ftp.ncbi.nlm.nih.gov/pub/lu/BioRED/)。保留原文 PMID、原始标注版本、数据哈希及坐标转换说明。PubMed 可访问性不等于全部摘要文字属于公有领域；论文文本与人工标注的权利来源应分别识别。课堂使用及进一步再分发按原始发布条件处理。
 - **独立实体词典**：具体 NCBI、MeSH 或其他数据库来源、下载版本与筛选方式见 [DATA_SOURCES.md](docs/DATA_SOURCES.md)。不能用选中文献的金标名称－ID 对冒充外部标准知识库。
+- **Cellosaurus**：改进体验使用五个细胞条目的名称、别名、物种及来源链接，逐条 accession 保存在 `data/improvement/cell_context.json`；归功于 [Cellosaurus / SIB](https://www.cellosaurus.org/)。这些来源信息只作局部上下文提示，不把数据库内容或相关细胞系权利归为课程自有。
 - **可选 SapBERT**：[作者模型卡](https://huggingface.co/cambridgeltl/SapBERT-from-PubMedBERT-fulltext)标示 Apache-2.0。固定 revision 为 `090663c3ae57bf35ffe4d0d468a2a88d03051a4d`；模型和分词器的实测文件哈希见 [model_manifest.json](data/model_manifest.json)。权重单独下载，不纳入课程仓库；UMLS 训练数据的权利不因模型卡许可而变为课程自有。推理适配见 [METHODS.md](docs/METHODS.md)，不能把词典匹配输出标作模型输出。
 - **DeepSeek**：使用官方 API 产生的真实结果应保留模型名、调用时间、提示及输入哈希、用量。真实响应与人工金标性质不同；费用和服务规则以调用时官方说明为准。
 

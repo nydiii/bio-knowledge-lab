@@ -77,6 +77,14 @@ python scripts/prepare_data.py --fetch
 
 重建采用临时目录，先比较全部源文件和派生文件哈希，所有比较通过后才替换课程文件，manifest 最后写入。JSON 键排序，选样分数累加的集合遍历也排序，避免不同 `PYTHONHASHSEED` 导致内容或字节变化。文件已被手工改动时，普通重建会拒绝覆盖。若确实要升级数据库、修改选样规模或变更生成规则，应在独立副本中审查变化，显式使用 `--refresh-lock` 更新锁文件，并重新完成验收；该选项不是学生日常步骤。发布前已执行一次序列化规范修复，将 manifest 升为 1.1，保留了原 50 篇文献的 ID、文本、划分及全部标注内容。
 
+## 改进体验的独立资源
+
+`data/improvement/entities.jsonl` 是新增体验使用的候选库，原 `data/kb/entities.jsonl` 保持不变。维护脚本 `scripts/prepare_improvement_kb.py` 读取已冻结的三种 NCBI `gene_info` 源文件和旧模型预测名称，用保留数字/希腊亚型的排版归一、完整别名和长末词检索补充候选，不读取 gold 或审阅建议。长末词命中只属于检索线索，不自动成为官方同义词。源哈希和派生资源哈希在 `data/improvement/manifest.json`。
+
+`cell_context.json` 的局部细胞来源信息于 2026-11-18 对照 Cellosaurus 的 [Ishikawa](https://www.cellosaurus.org/CVCL_2529)、[253J-BV](https://www.cellosaurus.org/CVCL_7937)、[KU-7](https://www.cellosaurus.org/CVCL_4714)、[GT1-1](https://www.cellosaurus.org/CVCL_6236)、[HEK293](https://www.cellosaurus.org/CVCL_0045) 核查；只保留名称、别名、物种和出处，不代表已实现完整细胞系链接。KU-7 的数据库记录含 HeLa 污染/衍生说明，此处不以它确认膀胱组织来源。细胞物种不能证明外加蛋白试剂的物种。
+
+`review_cases.json` 是匿名、字段级的课程诊断说明，记录原参考辅助整理、采纳建议、争议和待审；不输入优化函数，也不替换原始金标。学生姓名、附件及本机环境信息不分发。改进版固定原模型回答，仅执行本地规则，没有新增 API 响应或训练。
+
 ## 使用条款与署名
 
 - BioRED 数据与指南由官方公开提供，引用其数据论文及官方仓库。本文献摘要仍可能涉及原出版方版权，不能因存放在 NCBI 上就把摘要声明为 MIT。仓库已公开；第三方材料的原有权利与使用条件继续适用。原始资料来源与下载器均保留供核对。

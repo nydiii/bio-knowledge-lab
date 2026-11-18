@@ -7,6 +7,7 @@
 ## 从这里开始
 
 - **[逐步操作手册](docs/MANUAL.md)**：安装、下载、分步操作、真实 API、预期结果和常见问题。
+- **[发现问题并改进程序](docs/IMPROVEMENT_LAB.md)**：跑旧版、读诊断、运行改进版、比较实际效果；免费，无需填写或提交表格。
 - **[教师说明](docs/TEACHER_GUIDE.md)** · **[人工核查表](docs/MANUAL_REVIEW.md)** · **[回传模板](docs/REVIEW_RETURN.md)**。
 - **[数据来源](docs/DATA_SOURCES.md)** · **[字段与参考答案](docs/SCHEMA.md)** · **[论文方法与适配边界](docs/METHODS.md)**。
 - **[实际验证记录](docs/VERIFICATION.md)**：费用、指标、测试环境、未覆盖内容。

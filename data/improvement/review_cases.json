@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-18",
+  "priority_records": 24,
+  "review_opinions": 24,
+  "reviewed_unique_records": 22,
+  "unreviewed_numbers": [
+    11,
+    12
+  ],
+  "note": "匿名归纳的字段级审阅与核查说明。原作者gold、原参考辅助整理、人工意见分别保留；不是全部独立专家确认。仅诊断/评价读取，优化不读取。",
+  "development_doc_ids": [
+    "18507837",
+    "18593936",
+    "19306381",
+    "19463742",
+    "19672862",
+    "21750150",
+    "25305591",
+    "27014915",
+    "27084744",
+    "27248656"
+  ],
+  "cases": [
+    {
+      "number": 1,
+      "doc_id": "19672862",
+      "record_id": "r14",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "supported_field_revision",
+      "review_summary": "原文是敲低 PKCalpha 后 p21 增加；关系标签建议 Negative_Correlation，与固定参考一致。尚未确认端点 ID。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19672862/"
+    },
+    {
+      "number": 2,
+      "doc_id": "19672862",
+      "record_id": "r15",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "supported_field_revision",
+      "review_summary": "原文是敲低 PKCalpha 后 p27 增加；关系标签建议 Negative_Correlation，与固定参考一致。尚未确认端点 ID。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19672862/"
+    },
+    {
+      "number": 3,
+      "doc_id": "21750150",
+      "record_id": "r10",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "supported_field_revision",
+      "review_summary": "原文明示 bFGF 受到 DACH1 转录抑制；标签建议 Negative_Correlation，与固定参考一致。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/21750150/"
+    },
+    {
+      "number": 4,
+      "doc_id": "25305591",
+      "record_id": "r7",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "review_disagreement",
+      "review_summary": "不采纳“VIP 缺失后 EAE 减轻，所以 VIP 保护疾病”的反向推理。原参考为 Association；内源缺失、外源给药与不同受体不可混为一谈。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25305591/"
+    },
+    {
+      "number": 5,
+      "doc_id": "27014915",
+      "record_id": "r6",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "retain_field_only",
+      "review_summary": "BV6 诱导 cIAP1 降解，保留 Negative_Correlation 合理；BV6 的提及边界/链接及 cIAP1 身份仍可能影响端到端评价。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27014915/"
+    },
+    {
+      "number": 6,
+      "doc_id": "27084744",
+      "record_id": "r16",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "granularity_pending",
+      "review_summary": "DAPT 清除 CD133 阳性细胞，不等于直接下调 CD133/PROM1 基因。原参考为 Association；对象粒度仍需核查，不机械改成 Negative。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27084744/"
+    },
+    {
+      "number": 7,
+      "doc_id": "27248656",
+      "record_id": "r18",
+      "issue": "contradicted_text",
+      "reviewed_field": "relation.type",
+      "review_status": "interpretation_vs_reference",
+      "review_summary": "抑制 Hsp90beta 后疾病减轻，不能解释为 Hsp90beta 保护疾病。原参考为 Association；正向干预解释另行记录。端点还存在 alpha/beta 亚型错链。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27248656/"
+    },
+    {
+      "number": 8,
+      "doc_id": "19306381",
+      "record_id": "r5",
+      "issue": "invalid_judgment",
+      "reviewed_field": "verification.evidence",
+      "review_status": "retain_relation_repair_quote",
+      "review_summary": "两份意见分别针对关系候选与引文，不构成冲突。保留 Association 候选，省略号拼接引文仍无效；应重新定位连续原文，不能将 invalid_judgment 当关系错误。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19306381/"
+    },
+    {
+      "number": 9,
+      "doc_id": "19306381",
+      "record_id": "r6",
+      "issue": "invalid_judgment",
+      "reviewed_field": "verification.evidence",
+      "review_status": "retain_candidate_pending_evidence",
+      "review_summary": "有保留候选意见但缺独立说明；原参考为 Association。引文有效性、物种和标准 ID 分开核查。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19306381/"
+    },
+    {
+      "number": 10,
+      "doc_id": "27248656",
+      "record_id": "r11",
+      "issue": "invalid_judgment",
+      "reviewed_field": "relation.type",
+      "review_status": "interpretation_vs_reference",
+      "review_summary": "Hsp90beta knockdown 缓解 proteinuria：对象是蛋白尿，不是“缓解”。正向干预解释合理，但固定参考为 Association；端点亚型仍有问题。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27248656/"
+    },
+    {
+      "number": 11,
+      "doc_id": "27248656",
+      "record_id": "r7",
+      "issue": "invalid_judgment",
+      "reviewed_field": "verification.evidence",
+      "review_status": "unreviewed",
+      "review_summary": "未收到人工结论。模型 invalid_judgment 只说明核查引文/输出未通过，不能自动改关系标签。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27248656/"
+    },
+    {
+      "number": 12,
+      "doc_id": "27248656",
+      "record_id": "r8",
+      "issue": "invalid_judgment",
+      "reviewed_field": "verification.evidence",
+      "review_status": "unreviewed",
+      "review_summary": "未收到人工结论。保留待审，不以本轮程序通过替代科学核查。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27248656/"
+    },
+    {
+      "number": 13,
+      "doc_id": "18507837",
+      "record_id": "m24",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "reference_dispute",
+      "review_summary": "原文明示 CDKN2D [p19]，程序 1032 有依据；原 gold 是 1029。保留候选并记录参考争议，不为凑分改答案。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18507837/"
+    },
+    {
+      "number": 14,
+      "doc_id": "18507837",
+      "record_id": "m31",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "reference_dispute",
+      "review_summary": "TRFP 是多义别名。全文第6染色体 CCND3 连锁区及 RNA polymerase II-SRB 描述支持 MED20 9477；原 gold 是 USP47 55031。全文核查与原摘要基准分开，不覆盖 gold。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18507837/"
+    },
+    {
+      "number": 15,
+      "doc_id": "18593936",
+      "record_id": "m13",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "supported_field_revision",
+      "review_summary": "人源细胞内的 survivin 应优先核对人 BIRC5；旧词典漏候选且过早接受小鼠别名。细胞来源与异种移植宿主分开。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18593936/"
+    },
+    {
+      "number": 16,
+      "doc_id": "18593936",
+      "record_id": "m19",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "supported_field_revision",
+      "review_summary": "同一细胞实验背景中的 survivin 需核对物种；不同出现位置仍逐条判断，不把一个修订广播到整篇。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18593936/"
+    },
+    {
+      "number": 17,
+      "doc_id": "18593936",
+      "record_id": "m39",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "supported_field_revision",
+      "review_summary": "两份意见均指出 survivin 的人/小鼠错链；模型候选、来源证据与独立审核仍分开记录。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18593936/"
+    },
+    {
+      "number": 18,
+      "doc_id": "19463742",
+      "record_id": "m1",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "original_reference_adopted",
+      "review_summary": "按用户确认的原 BioRED 参考保留三个物种 ID。标题级多 ID 不是三个新提及；程序需有证据才能作多身份输出。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19463742/"
+    },
+    {
+      "number": 19,
+      "doc_id": "19463742",
+      "record_id": "m26",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "original_reference_adopted",
+      "review_summary": "按原参考采用大鼠 Ins1 24505。早先引用 HEK293/human MC4R 的保留理由不对应本次提及；外加胰岛素来源仍可独立核查。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19463742/"
+    },
+    {
+      "number": 20,
+      "doc_id": "19463742",
+      "record_id": "m3",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "original_reference_adopted",
+      "review_summary": "按原参考保留人/鼠/大鼠三个 ID；这不等于仅凭全文出现多个物种就可把所有候选都加进预测。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19463742/"
+    },
+    {
+      "number": 21,
+      "doc_id": "19463742",
+      "record_id": "m30",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "original_reference_adopted",
+      "review_summary": "按用户明确要求采用原参考小鼠 Ins1 16333。GT1-1 的细胞物种不能独立证明外加 insulin 的物种；新版可能保留待审。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19463742/"
+    },
+    {
+      "number": 22,
+      "doc_id": "19463742",
+      "record_id": "m33",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "original_reference_adopted",
+      "review_summary": "总结句按原参考保留三个 ID；原提及身份和跨度仍只有一条。独立科学核查未完成。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19463742/"
+    },
+    {
+      "number": 23,
+      "doc_id": "19672862",
+      "record_id": "m26",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "supported_field_revision",
+      "review_summary": "Ishikawa 为人源细胞。GSK3 全称/缩写匹配应保留 beta 亚型并重新核对物种，不能传播小鼠错链。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19672862/"
+    },
+    {
+      "number": 24,
+      "doc_id": "19672862",
+      "record_id": "m27",
+      "issue": "id_differs_from_dataset_reference",
+      "reviewed_field": "entity.links",
+      "review_status": "supported_field_revision",
+      "review_summary": "与上一条是同句全称/缩写的两个提及；共享名称证据，不无条件共享错误 ID。",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19672862/"
+    }
+  ]
+}
