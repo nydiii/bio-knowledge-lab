@@ -1,21 +1,135 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-18",
+  "guide": "docs/MANUAL.md",
+  "guide_sha256": "f82edeaffd1597bf628516d0193d9ec40544dc6857124aea82cc7300ee087029",
+  "scope": "All 28 Python CLI commands from the merged student guide, in order, with fresh result folders. OS installation/activation commands were reviewed but not rerun on Windows.",
+  "source_code_changed": false,
   "paid_api_calls": 0,
-  "manual_commands_succeeded": 23,
-  "independent_demo_verify_passed": true,
-  "stale_revision_rejected": true,
-  "restored_query_equal_except_versions": true,
-  "repeat_update_query_equal": true,
+  "manual_commands_succeeded": 28,
   "initial_documents": 40,
   "final_documents": 50,
   "final_mentions": 2603,
   "final_relations": 690,
   "final_shared_entities": 84,
-  "local_document_links_valid": true,
-  "static_cli_lines_parsed": 34,
-  "api_wrapper_argv_parsed_without_calling_api": 3,
-  "scientific_review_complete": false,
+  "restored_query_equal_except_versions": true,
+  "repeat_update_query_equal": true,
   "verification_document_count": 50,
   "verification_relation_count": 690,
-  "verification_coverage_complete": true
+  "entity_id_changes": 5,
+  "relation_label_changes": 3,
+  "scientific_review_complete": false,
+  "commands": [
+    {
+      "command": "python -m bio_knowledge_lab --help",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab fetch --verify-only",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab extract --mode replay --split initial --output runs/manual/extracted_initial.jsonl",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab align --input runs/manual/extracted_initial.jsonl --output runs/manual/aligned_initial.jsonl --method contextual --mode replay",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab evaluate --input runs/manual/aligned_initial.jsonl --output runs/manual/evaluation_initial.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab fuse --input runs/manual/aligned_initial.jsonl --db runs/manual/knowledge.sqlite",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab query --db runs/manual/knowledge.sqlite --output runs/manual/query_initial.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab check --db runs/manual/knowledge.sqlite --output runs/manual/check_initial.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab check-evidence --mode replay --input runs/manual/aligned_initial.jsonl --output runs/manual/verification_initial.jsonl",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab prepare-revision --db runs/manual/knowledge.sqlite --output-dir runs/manual/revisions",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab revise --db runs/manual/knowledge.sqlite --proposal runs/manual/revisions/teaching_injection.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab query --db runs/manual/knowledge.sqlite --output runs/manual/query_injected.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab revise --db runs/manual/knowledge.sqlite --proposal runs/manual/revisions/correction.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab query --db runs/manual/knowledge.sqlite --output runs/manual/query_corrected.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab history --db runs/manual/knowledge.sqlite --output runs/manual/history.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab extract --mode replay --split incremental --output runs/manual/extracted_incremental.jsonl",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab align --input runs/manual/extracted_incremental.jsonl --output runs/manual/aligned_incremental.jsonl --method contextual --mode replay",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab evaluate --input runs/manual/aligned_incremental.jsonl --output runs/manual/evaluation_incremental.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab update --input runs/manual/aligned_incremental.jsonl --db runs/manual/knowledge.sqlite",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab query --db runs/manual/knowledge.sqlite --output runs/manual/query_updated.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab check --db runs/manual/knowledge.sqlite --output runs/manual/check_updated.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab check-evidence --mode replay --input runs/manual/aligned_incremental.jsonl --output runs/manual/verification_incremental.jsonl",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab update --input runs/manual/aligned_incremental.jsonl --db runs/manual/knowledge.sqlite",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab query --db runs/manual/knowledge.sqlite --output runs/manual/query_repeated.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab feedback-lab --step baseline --workdir runs/feedback",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab feedback-lab --step inspect --workdir runs/feedback",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab feedback-lab --step optimize --workdir runs/feedback",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m bio_knowledge_lab feedback-lab --step compare --workdir runs/feedback",
+      "exit_code": 0
+    }
+  ]
 }
